@@ -32,7 +32,6 @@ client.on('message', message => {
   });
 client.login(process.env.BOT_TOKEN);
 
-const fs = require('fs')
 const { Client2, Util } = require('discord.js');
 const client2 = new Discord.Client2();
 const prefix = "#";
