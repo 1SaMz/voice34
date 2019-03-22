@@ -37,7 +37,6 @@ client.login(process.env.BOT_TOKEN);
 
 
 const client2 = new Discord.Client2();
-const prefix = "#";
  
 const devs = ["558359137864515584"]
  
