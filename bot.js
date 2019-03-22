@@ -55,7 +55,6 @@ client.on('ready', () => {
 
 
  
-const adminprefix = "#";
 client2.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
       if (!devs.includes(message.author.id)) return;
