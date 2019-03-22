@@ -75,7 +75,7 @@ client2.on('message', message => {
         console.log("\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
         console.log(` Bot restarting...Maaaz `);
         console.log("===============================================\n\n");
-        client.destroy();
+        client2.destroy();
         child_process.fork(__dirname + "/bot.js");
         console.log(`Bot Successfully Restarted`);
     }
