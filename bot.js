@@ -54,6 +54,15 @@ client.on('ready', () => {
     });
 
 
+
+
+const Discord = require("discord.js");
+const RichEmbed = require("discord.js");
+const fs = require('fs')
+const { Client, Util } = require('discord.js');
+const client2 = new Discord.Client2();
+const prefix = "#";
+ 
 const devs = ["558359137864515584"]
  
 const adminprefix = "#";
