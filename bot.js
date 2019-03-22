@@ -54,11 +54,6 @@ client.on('ready', () => {
     });
 
 
-const Discord = require("discord.js");
-const RichEmbed = require("discord.js");
-const fs = require('fs')
-const { Client2, Util } = require('discord.js');
-const client = new Discord.Client();
 const prefix = "#";
  
 const devs = ["558359137864515584"]
