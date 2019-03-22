@@ -94,7 +94,7 @@ client2.login(process.env.BOT_TOKEN2);
 
 
 //كود يدخل البوت الروم الصوتي
-client.on('message', msg => {
+client2.on('message', msg => {
 
     if (msg.content == '#join') {
         if (msg.member.voiceChannel) {
@@ -105,8 +105,8 @@ client.on('message', msg => {
     }
 }
 })
-client.on('ready', () => {
-    client.channels.get("558629795399729156").join();
+client2.on('ready', () => {
+    client2.channels.get("558629795399729156").join();
     });
 
 
